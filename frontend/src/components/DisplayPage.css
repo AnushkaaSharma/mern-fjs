@@ -1,0 +1,53 @@
+.display-page {
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.data-table th,
+.data-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.data-table th {
+    background-color: #f4f4f4;
+}
+
+.add-data-form {
+    margin-top: 20px;
+    display: block;
+    justify-content: center;
+}
+
+.add-data-form input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-data-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-data-form button:hover {
+    background-color: #0056b3;
+}
